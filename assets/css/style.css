@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(184, 241, 237);
+  background-color: rgb(255, 255, 255);
   font-size: 1.2em;
   margin: 0 auto;
   padding: 0 auto;
@@ -16,11 +16,12 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, 0.452);
   border-radius: 20px;
   width: 300px;
   height: 400px;
   margin: 20px;
-  border: 1px solid #ccc;
+  border: none;
 }
 
 .card-img-top {
@@ -32,7 +33,10 @@ body {
 }
 
 .card-body {
+  color: whitesmoke;
+  background-color: rgba(87, 3, 3, 0.454);
   text-align: center;
+  border-radius: 20px;
   width: 100%;
   height: 40%;
   display: flex;
@@ -53,6 +57,7 @@ body {
 }
 
 .btn {
+  background-color: rgba(255, 255, 255, 0.598);
   width: 50%;
   font-size: 16px;
 }

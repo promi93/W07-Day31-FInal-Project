@@ -28,7 +28,7 @@ const myShopping = function () {
             <h5 class="card-title">${shopElement.name}</h5>
             <p class="card-text">${shopElement.description}</p>
             <p>${shopElement.price} €</p>
-            <a href="details.html?eventId=${shopElement._id}" class="btn btn-primary">details</a>
+            <a href="details.html?eventId=${shopElement._id}" class="btn">Details</a>
           </div>
         </div>
               `;

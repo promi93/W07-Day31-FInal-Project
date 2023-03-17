@@ -20,8 +20,7 @@ const myShop = function () {
     .then((shopElements) => {
       console.log(shopElements);
       let details = document.getElementById("details-container");
-      shopElements.forEach((shopElements) => {
-        details.innerHTML += `
+      details.innerHTML += `
         <h1>Dettagli prodotto</h1>
           <h3>Name</h3>
         <input id='input' type="text" value="${shopElements.name}" disabled>
@@ -36,11 +35,10 @@ const myShop = function () {
              <h3>ID</h3>
             <input id='input' type="text" value="${shopElements._id}" disabled>
             <div>
-            <a href="details.html" class="btn btn-primary">Modifica</a>
+            <a href="details.html" class="btn btn-primary mt-3">Modifica</a>
             </div>
             
-            ;`;
-      });
+            `;
     });
 };
 myShop();
