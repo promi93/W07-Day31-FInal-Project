@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Details Page</title>
+    <title>Home Page</title>
     <!-- BOOTSTRAP 5 ICON -->
     <link
       rel="stylesheet"
@@ -71,31 +71,19 @@
     </header>
 
     <main>
-      <!-- PRODUCT CARD -->
-      <div class="container">
-        <h1 class="text-center my-4 shadow bg-warning">Modifica Prodotto</h1>
-        <div id="details-container"></div>
-        <div id="product-form">
-          <div id="name-input">
-            <div id="brand-input">
-              <div id="price-input"></div>
-            </div>
-            <button
-              id="deleted"
-              type="submit"
-              class="btn bg-danger d-inline my-3"
-            >
-              Elimina Prodotto
-            </button>
-          </div>
-        </div>
+      <!-- SHOP CONTAINER SECTION -->
+      <div class="container-fluid">
+        <div
+          id="shopList"
+          class="d-flex flex-wrap justify-content-center mt-5"
+        ></div>
       </div>
     </main>
 
     <!-- FOOTER -->
     <footer>
       <div class="bg-warning">
-        <div class="row" style="display: inline; text-align: center">
+        <div class="row" style="display: inline; text-align: center;">
           <div>&copy; Copyright - Progetto Settimanale.</div>
           <div>Epidoce - Italia 2023.</div>
         </div>
@@ -109,6 +97,6 @@
       crossorigin="anonymous"
     ></script>
     <!-- COLLEGAMENTO JAVASCRIPT -->
-    <script src="./assets/js/details.js"></script>
+    <script src="./assets/js/homePage.js"></script>
   </body>
 </html>
