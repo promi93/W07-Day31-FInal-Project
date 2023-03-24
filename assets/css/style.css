@@ -67,6 +67,7 @@ body {
 /* INPUT ID */
 input {
   border-radius: 20px;
+  outline: none;
 }
 
 /* @MEDIA RESPONSIVE */
